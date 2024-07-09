@@ -1,0 +1,172 @@
+#text-container{
+    font-family: Helvetica;
+    text-align: center;
+    position: relative;
+}
+
+#text-container > h1{
+    font-size: 200px;
+    color: #FF5050;
+}
+#text-container > p {
+    font-size: 40px;
+    color: #FF6D6D;
+}
+#text-container > button {
+    background-color: #FF6D6D;
+    padding: 10px 20px;
+    color: white;
+    font-family: Helvetica;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#task-list{
+    font-family: Helvetica;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* #ongoing-tasks-card,#completed-tasks-card{
+    opacity: 0.4;
+} */
+
+
+#form-container{
+    background-color: #F1F1F1;
+    font-family: Helvetica;
+    color: #FF5050;
+    position: static;
+    width: 800px;
+    height: 500px;
+    margin-left: 25vw;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    opacity: 0;
+    
+    
+    
+}
+
+#form-container > p {   
+    font-size: 30px;
+    text-align: center;
+}
+
+#form-container > input,textarea {
+    background-color: #C2C2C2;
+}
+
+label{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15vw;
+
+
+}
+
+input,select{
+
+    display: flex;
+    padding: 8px 100px;
+    border: none;
+    border-radius : 5px;
+    margin-bottom: 10px;
+    margin-left: 15vw;
+}
+
+textarea{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    border: none;
+    margin-left: 15vw;
+    border-radius: 5px;
+   
+}
+
+
+#addTask{
+    padding: 10px 20px;
+    font-family: Helvetica;
+    background-color:#FF5050;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: calc(20vw + 20px);
+    margin-top: 40px;
+}
+
+img[src="Cross-Button.png"]{
+    margin-left:calc(45rem + 50px);
+}
+img[src="Cross-Button.png"]:hover{
+    cursor: pointer;
+}
+
+#taskCard{
+    background-color: #F1F1F1;
+    width: 435px;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+   
+}
+
+#task-priority{
+    position: absolute;
+    margin-top: -50px;
+}
+#task-title{
+    padding-right: 190px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+#task-date{
+    position: absolute;
+    margin-top: 0px;
+    
+    margin-left: 25px;
+}
+#task-note{
+    opacity: 0.5;
+    width: 250px;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 30px;
+    
+}
+#clear-button{
+    position: absolute;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: Helvetica;
+    background-color: #FF3932;
+    color: white;
+    margin-left: 15rem;
+    
+    
+   
+}
+#completed-button{
+    padding: 5px 10px;
+    border: none;
+    
+    border-radius: 10px;
+    font-family: Helvetica;
+    background-color: #57EB99;
+    color: white;
+    margin-left: 20rem;
+    
+
+   }
